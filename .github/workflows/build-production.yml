@@ -4,7 +4,6 @@ on:
   push:
     tags:
       - 'v*'
-
 jobs:
   build_push_image:
     runs-on: ubuntu-20.04
